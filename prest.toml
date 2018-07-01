@@ -1,1 +1,30 @@
+migrations = "./migrations"
+
+debug=true
+
+
+[http]
+host = "127.0.0.1"
+
+
+
+[jwt]
+key = "secret"
+algo = "HS256"
+default = false
+
+[pg]
+host = "127.0.0.1"
+user = "postgres"
+pass = "root"
+port = 5433
+database = "mensageiros_da_caridade"
+
+[ssl]
+mode = "disable"
+sslcert = "./PATH"
+sslkey = "./PATH"
+sslrootcert = "./PATH"
+
+
 

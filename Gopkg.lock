@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  name = "github.com/adelowo/muxlist"
+  packages = ["."]
+  revision = "df20a1d55f0a66b104b695bbefe6556adbfdc78e"
+  version = "0.1.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/auth0/go-jwt-middleware"
   packages = ["."]
@@ -267,6 +273,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "04ac9a57c7e06f17e43cd4135417264d208d4c7f526c1526ede92cec78f3ee37"
+  inputs-digest = "a84236bbf31152e0de730ecd858521cdd034cb170e45b45dc6b4c02997622fca"
   solver-name = "gps-cdcl"
   solver-version = 1
